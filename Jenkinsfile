@@ -13,7 +13,8 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo "stage-3"
+                sh ''' python3 hello.py
+                '''
             }
         }
     }
