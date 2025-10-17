@@ -1,4 +1,4 @@
-num1=7
+num1=10
 num2=10
 addition=(num1+num2)
 print("First number :",num1)
